@@ -12,7 +12,7 @@
 
 
 <LinearLayout
-android:layout_width="wrap_content"
+android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:orientation="vertical"
 android:layout_marginLeft="5dp"
@@ -42,7 +42,7 @@ android:gravity="center">
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="horizontal"
     android:layout_marginTop="30dp"
     android:gravity="center">
@@ -61,14 +61,7 @@ android:gravity="center">
         />
 </LinearLayout>
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="what do you need?"
-    android:layout_marginRight="100dp"
-    android:textStyle="bold"
-    android:layout_gravity="center"
-    android:layout_marginTop="20dp"/>
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -120,14 +113,14 @@ android:gravity="center">
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_marginLeft="50dp"
-        android:text="map"/>
+        android:layout_marginLeft="70dp"
+        android:text="Map"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="70dp"
         android:text="inbox"/>
 </LinearLayout>
 
@@ -183,14 +176,14 @@ android:gravity="center">
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_marginLeft="30dp"
-        android:text="fevorite"/>
+        android:layout_marginLeft="40dp"
+        android:text="Fevorite"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="30dp"
         android:text="Logout"/>
     <TextView
         android:layout_width="wrap_content"
